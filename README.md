@@ -1,146 +1,60 @@
 # WEBVISON-2.0
-# ReverseDev AI
+## Core Technical Innovation
 
-### From Website Reverse Engineering to AI-Powered Product Discovery
+ReverseDev AI will combine existing reverse-engineering capabilities with our own developer-built infrastructure.
 
-ReverseDev AI is an AI-powered developer platform that helps developers understand existing websites, investigate their features, identify real-world problems, and transform their ideas into differentiated software projects.
+### 1. Our Own MCP Server
 
-Instead of manually inspecting websites, researching functionality, and writing project documentation, developers can use one platform to analyze, understand, plan, and document their next project.
+We will develop a dedicated Model Context Protocol (MCP) Server that acts as the central communication layer between AI agents, REA, CodeExtract, and our platform.
 
-## Problem Statement
+Responsibilities:
+- Connect AI agents with reverse-engineering tools.
+- Expose website analysis and extraction capabilities as MCP tools.
+- Coordinate website inspection workflows.
+- Process and organize extracted technical information.
+- Provide structured website evidence to the AI engine.
+- Enable communication between different developer tools.
 
-Developers often discover interesting websites and applications but struggle to understand their internal functionality, architecture, and implementation patterns.
+### 2. Integration of Existing Reverse-Engineering Tools (REA)
 
-Building a similar product requires multiple time-consuming steps:
+We will integrate REA as an existing reverse-engineering solution to strengthen our website investigation capabilities.
 
-- Inspecting website structures and UI components.
-- Understanding how individual features work.
-- Identifying the problems addressed by existing products.
-- Researching potential improvements and opportunities.
-- Selecting an appropriate technology stack.
-- Writing project documentation and README files.
+Its role will include:
+- Website structure investigation.
+- Technical resource inspection.
+- Browser-based behavior analysis.
+- Collecting evidence for feature understanding.
+- Supporting deeper technical investigation.
 
-Existing extraction tools primarily focus on collecting website code, assets, and design information. Developers still need to convert that information into a meaningful product idea and development plan.
+### 3. Our Own CodeExtract Chrome Extension
 
-## Proposed Solution
+We will independently develop a Chrome Extension called CodeExtract, inspired by developer-focused website extraction workflows.
 
-ReverseDev AI combines website extraction, AI-assisted reverse engineering, and intelligent project documentation into a unified developer workflow.
+Planned capabilities:
+- Select and inspect individual website elements.
+- Extract HTML and CSS.
+- Inspect available JavaScript resources.
+- Capture screenshots of selected components.
+- Preview extracted code.
+- Export extracted components and code.
+- Send extracted information to our MCP Server for AI analysis.
 
-Users can provide a website URL, select interesting features, and describe what they want to build.
+### 4. Unified MCP-Powered Architecture
 
-The platform analyzes available website information and produces an actionable project blueprint containing:
+Our main innovation is bringing these components together into one workflow.
 
-- Problem statement and proposed solution.
-- Feature analysis and functional breakdown.
-- Technical architecture and technology recommendations.
-- Opportunities for improvement and differentiation.
-- Target audience and use cases.
-- A complete, GitHub-ready README.md.
+| Component | Development approach | Responsibility |
+|---|---|---|
+| MCP Server | Developed by our team | Central tool communication and orchestration |
+| REA | Existing solution integration | Reverse engineering and investigation |
+| CodeExtract | Developed by our team | Browser-based code and component extraction |
+| AI Engine | Developed by our team | Feature understanding and product intelligence |
+| README Generator | Developed by our team | Project documentation generation |
 
-## Key Features
+### Why This Makes Us Different
 
-### 1. Website Reverse Engineering
-- Analyze publicly accessible website structures.
-- Inspect HTML, CSS, and JavaScript where accessible.
-- Investigate available scripts and network observations.
-- Capture screenshots and website behavior.
-- Understand selected website features.
+Rather than depending on a single extraction tool, ReverseDev AI combines an independently developed MCP Server, an original Chrome Extension, existing reverse-engineering capabilities, and an AI-powered product intelligence engine.
 
-### 2. Code Extraction
-- Extract selected HTML elements.
-- Inspect CSS and computed styles.
-- View available JavaScript resources.
-- Preview extracted information.
-- Export permitted extracted artifacts.
+This creates a unified developer ecosystem that transforms website investigation into actionable software ideas and development documentation.
 
-### 3. AI Feature Understanding
-- Explain how a selected feature works.
-- Identify its purpose and user journey.
-- Break complex functionality into smaller components.
-- Identify technical dependencies and limitations.
-
-### 4. AI Product Idea Generator
-- Convert user descriptions into project concepts.
-- Identify the problem being solved.
-- Define target users and their requirements.
-- Suggest practical solutions.
-- Recommend useful additional features.
-
-### 5. Competitive Differentiation
-- Compare existing functionality with proposed functionality.
-- Identify potential gaps and improvement opportunities.
-- Suggest unique product features.
-- Generate a clear Unique Selling Proposition (USP).
-
-### 6. README Generator
-Generate professional project documentation containing:
-- Project overview.
-- Problem statement.
-- Proposed solution.
-- Features.
-- Technology stack.
-- Architecture.
-- Installation instructions.
-- Usage instructions.
-- Future scope.
-- Contribution guidelines.
-
-## How It Works
-
-1. User enters a website URL.
-2. The extraction layer collects permitted website information.
-3. REA investigates available technical evidence and behavior.
-4. The AI engine interprets the findings.
-5. User describes their proposed product and requirements.
-6. The product intelligence engine identifies problems, solutions, and differentiation.
-7. The README generator produces structured documentation.
-8. User reviews, edits, and exports the final README.
-
-## Technology Stack
-
-| Component | Technology |
-|---|---|
-| Frontend | Next.js, TypeScript |
-| UI | Tailwind CSS, shadcn/ui |
-| Backend | Node.js |
-| Database | PostgreSQL |
-| Browser Extraction | Chrome Extension, Playwright |
-| Reverse Engineering | REA, MCP |
-| AI Integration | LLM API |
-| Documentation | Markdown Generator |
-
-## What Makes ReverseDev AI Different?
-
-Traditional website extractors focus on collecting code and design information.
-
-ReverseDev AI focuses on converting website intelligence into actionable software development decisions.
-
-Our differentiating approach:
-
-- Evidence-backed feature explanations.
-- Website analysis combined with user-provided ideas.
-- Problem and solution identification.
-- Product differentiation recommendations.
-- Complete project documentation.
-- A unified workflow from reference website to development blueprint.
-
-## Future Scope
-
-- AI-powered website recreation.
-- Automatic component generation.
-- Multi-website comparison.
-- Technology stack detection.
-- API and integration discovery.
-- Architecture diagram generation.
-- Direct GitHub repository creation.
-- AI-assisted implementation planning.
-
-## Project Goal
-
-Our goal is to reduce the gap between discovering an interesting software product and building an improved version of it.
-
-**ReverseDev AI — Understand Existing Products. Discover Better Ideas. Build Your Own.**
-
-## Responsible Use
-
-The platform is intended for authorized research, education, interoperability, and analysis of publicly accessible or user-authorized resources. It will respect website access restrictions, intellectual property, and applicable terms of service. It will not attempt to bypass authentication or security controls.
+**Our Technical USP: Build our own MCP infrastructure + integrate REA + develop CodeExtract + AI-powered product intelligence.**
