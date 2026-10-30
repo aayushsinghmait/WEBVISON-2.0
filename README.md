@@ -1,60 +1,83 @@
 # WEBVISON-2.0
-## Core Technical Innovation
+## 📌 About the Project
 
-ReverseDev AI will combine existing reverse-engineering capabilities with our own developer-built infrastructure.
+WealthPulse is an AI-powered financial management platform that aims to make investment management more accessible, understandable, and efficient.
 
-### 1. Our Own MCP Server
+Managing investments across different asset classes can be complicated, especially for beginners. Users often rely on multiple platforms to monitor their investments, understand market movements, and evaluate portfolio performance.
 
-We will develop a dedicated Model Context Protocol (MCP) Server that acts as the central communication layer between AI agents, REA, CodeExtract, and our platform.
+WealthPulse addresses this fragmentation by bringing investment tracking, AI-powered insights, portfolio analysis, and financial education together in one platform.
 
-Responsibilities:
-- Connect AI agents with reverse-engineering tools.
-- Expose website analysis and extraction capabilities as MCP tools.
-- Coordinate website inspection workflows.
-- Process and organize extracted technical information.
-- Provide structured website evidence to the AI engine.
-- Enable communication between different developer tools.
+As part of our hackathon challenge, we aim to refine the existing WealthPulse platform by improving its usability, accessibility, and overall user experience while retaining its core functionality.
 
-### 2. Integration of Existing Reverse-Engineering Tools (REA)
+## 🎯 Problem Statement
 
-We will integrate REA as an existing reverse-engineering solution to strengthen our website investigation capabilities.
+Managing personal investments involves several challenges:
 
-Its role will include:
-- Website structure investigation.
-- Technical resource inspection.
-- Browser-based behavior analysis.
-- Collecting evidence for feature understanding.
-- Supporting deeper technical investigation.
+- **Fragmented Information:** Investment information is scattered across different platforms.
+- **Complex Financial Concepts:** Beginners often struggle to understand financial terminology and market data.
+- **Lack of Personalized Insights:** Understanding investment risks and portfolio performance can be difficult.
+- **Limited Financial Awareness:** Users may lack the knowledge required to interpret investment-related information.
+- **Information Overload:** Accessing too much financial data without meaningful explanations can make decision-making difficult.
 
-### 3. Our Own CodeExtract Chrome Extension
+## 💡 Our Solution
 
-We will independently develop a Chrome Extension called CodeExtract, inspired by developer-focused website extraction workflows.
+WealthPulse aims to provide a unified financial management experience through:
 
-Planned capabilities:
-- Select and inspect individual website elements.
-- Extract HTML and CSS.
-- Inspect available JavaScript resources.
-- Capture screenshots of selected components.
-- Preview extracted code.
-- Export extracted components and code.
-- Send extracted information to our MCP Server for AI analysis.
+- AI-powered investment insights.
+- Unified investment dashboard.
+- Portfolio analysis and risk categorization.
+- Financial education resources.
+- Market updates and alerts.
 
-### 4. Unified MCP-Powered Architecture
+Our refinement focuses on making these capabilities easier to understand and more convenient to use.
 
-Our main innovation is bringing these components together into one workflow.
+## ⭐ Core Features
 
-| Component | Development approach | Responsibility |
-|---|---|---|
-| MCP Server | Developed by our team | Central tool communication and orchestration |
-| REA | Existing solution integration | Reverse engineering and investigation |
-| CodeExtract | Developed by our team | Browser-based code and component extraction |
-| AI Engine | Developed by our team | Feature understanding and product intelligence |
-| README Generator | Developed by our team | Project documentation generation |
+### 1. AI-Powered Investment Insights
+Uses AI-driven analysis to provide personalized investment-related insights based on user preferences and financial information.
 
-### Why This Makes Us Different
+### 2. Unified Investment Dashboard
+Brings multiple asset classes, including stocks, mutual funds, and cryptocurrencies, into a centralized interface.
 
-Rather than depending on a single extraction tool, ReverseDev AI combines an independently developed MCP Server, an original Chrome Extension, existing reverse-engineering capabilities, and an AI-powered product intelligence engine.
+### 3. Portfolio Analysis
+Helps users understand portfolio performance, asset distribution, and associated investment risks.
 
-This creates a unified developer ecosystem that transforms website investigation into actionable software ideas and development documentation.
+### 4. Financial Education Hub
+Provides educational resources such as courses, videos, and blogs to improve financial awareness.
 
-**Our Technical USP: Build our own MCP infrastructure + integrate REA + develop CodeExtract + AI-powered product intelligence.**
+### 5. Market Insights and Alerts
+Aims to keep users informed about relevant market movements and portfolio-related updates.
+
+
+## 🌍 Target Users
+
+- Beginner investors looking to understand financial markets.
+- Individuals managing investments across multiple asset classes.
+- Users seeking a centralized portfolio management experience.
+- People interested in improving their financial literacy.
+
+## 🚀 Project Objective
+
+Our goal is to enhance an existing financial technology platform by identifying usability gaps and introducing meaningful improvements.
+
+Rather than adding features merely for the sake of expansion, we aim to improve how users interact with financial information and make the platform more accessible to a wider audience.
+
+## 🔮 Future Scope
+
+Potential areas for further development include:
+
+- More advanced portfolio analytics.
+- Improved AI explainability.
+- Personalized financial learning paths.
+- Enhanced data visualization.
+- Greater accessibility and multilingual support.
+- Improved notification and customization controls.
+
+
+## ⚠️ Disclaimer
+
+WealthPulse is intended for financial information, educational purposes, and investment-related insights. AI-generated information should not be considered guaranteed financial advice or a promise of investment returns.
+
+---
+
+**WealthPulse – Bringing clarity, intelligence, and simplicity to financial management.**
